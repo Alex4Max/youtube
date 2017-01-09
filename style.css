@@ -20,8 +20,6 @@ button:focus {
 
 body {
     max-height: 100vh;
-    /*width: 100%;*/
-    /*min-width: 320px;*/
     background: darkgray;
     padding: 25px 0;
     font-family: Helvetika, sans-serif;
@@ -92,10 +90,7 @@ input:focus {
 
 .preview-img {
     max-width: 100%;
-    /*max-width: 300px;*/
     height: auto;
-    /*width: 320px;*/
-    /*height: 180px;*/
     border: 2px solid dimgrey;
 }
 
@@ -121,8 +116,6 @@ input:focus {
 }
 
 .info-box {
-    /*width: 320px;*/
-    /*max-width: 300px;*/
     margin-bottom: 20px;
     background: ghostwhite;
     color: dimgrey;
@@ -142,8 +135,6 @@ input:focus {
 }
 
 .preview-description {
-    /*width: 320px;*/
-    /*max-width: 300px;*/
     height: 90px;
     padding: 10px;
     font-size: 14px;
@@ -221,21 +212,6 @@ input:focus {
     border-top-color: rgba(0, 0, 0, 0.4);
 }
 
-/*@media screen and (max-width: 450px) {*/
-/*body {*/
-/*padding: 15px 0;*/
-/*}*/
-
-/*input {*/
-/*width: 70vw;*/
-/*}*/
-
-/*.main-block {*/
-/*padding: 15px 0 10px;*/
-/*}*/
-
-/*}*/
-
 @media screen and (max-width: 470px) {
     input {
         width: 80vw;
@@ -261,10 +237,6 @@ input:focus {
     .tooltip {
         display: none;
     }
-}
-
-@media screen and (orientation: landscape) {
-
 }
 
 @media screen and (max-height: 580px) {
